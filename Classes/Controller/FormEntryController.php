@@ -413,7 +413,7 @@ class FormEntryController extends ActionController
 
             $this->addFlashMessage(
                 LocalizationUtility::translate('LLL:EXT:frp_form_answers/Resources/Private/Language/de.locallang_be.xlf:flashmessage.deleteFormName.body', 'frp_form_answers', [$formName, $this->pid]),
-                LocalizationUtility::translate('LLL:EXT:frp_form_answers/Resources/Private/Language/de.locallang_be.xlf:flashmessage.deleteFormName.title'),
+                LocalizationUtility::translate('LLL:EXT:frp_form_answers/Resources/Private/Language/de.locallang_be.xlf:flashmessage.deleteFormName.header'),
                 \TYPO3\CMS\Core\Type\ContextualFeedbackSeverity::OK,
                 true);
         }
